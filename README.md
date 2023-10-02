@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="./src/lib/images/SongSenseAI-light.svg#gh-light-mode-only" width="150px" />
+  <img src="./src/lib/images/SongSenseAI-dark.svg#gh-light-mode-only" width="150px" />
 </p>
 
 <h1 align="center">
