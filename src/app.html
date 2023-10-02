@@ -2,7 +2,21 @@
 <html lang="en-US">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<link
+			media="(prefers-color-scheme: no-preference)"
+			rel="icon"
+			href="%sveltekit.assets%/favicon.ico"
+		/>
+		<link media="(prefers-color-scheme: light)" rel="icon" href="%sveltekit.assets%/favicon.ico" />
+		<link
+			media="(prefers-color-scheme: dark)"
+			rel="icon"
+			href="%sveltekit.assets%/favicon-light.ico"
+		/>
+		<link rel="apple-touch-icon" sizes="180x180" href="%sveltekit.assets%/apple-touch-icon.png" />
+		<link rel="manifest" href="%sveltekit.assets%/site.webmanifest" />
+		<meta name="msapplication-TileColor" content="#da532c" />
+		<meta name="theme-color" content="#ffffff" />
 		<meta name="viewport" content="width=device-width" />
 		%sveltekit.head%
 		<script>
