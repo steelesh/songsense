@@ -7,6 +7,7 @@
 		let initialDarkMode =
 			localStorage.theme === 'dark' ||
 			(!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
+
 		isDarkMode.set(initialDarkMode);
 
 		if (initialDarkMode) {
