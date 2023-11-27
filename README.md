@@ -44,7 +44,7 @@ Harnessing the power of ChatGPT, SongSense provides users with music recommendat
 
 ## Tech Stack
 
-Svelte, OpenAI API, Spotify API
+Nuxt 3
 
 <a href="https://vercel.com"><img src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" width="130"></a>
 
